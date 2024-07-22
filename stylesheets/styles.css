@@ -31,19 +31,26 @@
     background-color: azure;
     padding: 10px;
     border: 1px solid gray;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.job-card:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .image-container{
-    display: inline-block;
     position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
 img{
-    width: auto;
-    height: 200%;
-    margin: -80px -20px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
 }
 .profile-name{
     font-size: 20px;
