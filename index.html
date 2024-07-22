@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./stylesheets/reset.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
 </head>
 <body>
     <main>
-        <div class="container">
-            <h2>Our Review</h2>
-        </div>
+        <section class="section">
+            <div class="container">
+                <h2 class="title">Our Review</h2>
+                <div class="underline"></div>
+            </div>
+        </section>
+        <article class="job-card">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile-avatar">
+            </div>
+            <h4 class="profile-name">Person Name</h4>
+            <p class="profile-title">Job profile</p>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo temporibus fugiat voluptates explicabo ex impedit quisquam voluptate, labore quaerat rem laudantium obcaecati animi vero veritatis libero officiis ratione, ea molestias saepe voluptatem cumque nisi? Earum dolor architecto doloribus tempora qui facere sit numquam aspernatur, saepe sunt molestias, similique esse rem!</p>
+            <div class="controls">
+                <button class="left"><</button>
+                <button class="right">></button>
+            </div>
+            <button class="random">Surprise Me!</button>
+        </article>
     </main>
     <script src="./script.js"></script>
 </body>
