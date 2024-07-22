@@ -48,6 +48,8 @@ const reviews = [
 
 // This eventListener and showPerson funtion does the same work
  
+// This Load Before Page Load
+
 //   window.addEventListener('DOMContentLoaded', function(){
 //     const item = reviews[initialValue];
 //     image.src = item.img;
@@ -55,6 +57,8 @@ const reviews = [
 //     profileTitle.textContent = item.job;
 //     profileDescription.textContent = item.text;
 //   });
+
+// This Load After Pageload
 
   function showPerson(currentValue=0){
     const item = reviews[currentValue];
